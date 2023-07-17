@@ -27,6 +27,9 @@ ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview
 ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 material3 = { group = "androidx.compose.material3", name = "material3" }
+zipline = { module = "app.cash.zipline:zipline", version.ref = "zipline" }
+zipline-loader = { module = "app.cash.zipline:zipline-loader", version.ref = "zipline-loader" }
+zipline-profiler = { module = "app.cash.zipline:zipline-profiler", version.ref = "zipline-profiler" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
