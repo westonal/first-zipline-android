@@ -1,1 +1,5 @@
-1. Add Zip line dependencies:
+Run:
+
+```bash
+./gradlew lib:serveDevelopmentZipline --info --continuous
+```
