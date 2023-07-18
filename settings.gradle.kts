@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "FirstZiplineConsumer"
 include(":app")
+include(":lib")
  

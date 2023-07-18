@@ -3,12 +3,15 @@ agp = "8.2.0-alpha12"
 kotlin = "1.8.10"
 core-ktx = "1.9.0"
 junit = "4.13.2"
+okio = "3.4.0"
+okHttp = "4.11.0"
 androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 lifecycle-runtime-ktx = "2.6.1"
 activity-compose = "1.7.2"
 compose-bom = "2023.03.00"
 zipline = "1.1.0"
+zipline-gradle-plugin = "1.1.0"
 zipline-loader = "1.1.0"
 zipline-profiler = "1.1.0"
 
@@ -28,8 +31,14 @@ ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 material3 = { group = "androidx.compose.material3", name = "material3" }
 zipline = { module = "app.cash.zipline:zipline", version.ref = "zipline" }
+zipline-gradle-plugin = { module = "app.cash.zipline:zipline-gradle-plugin", version.ref = "zipline-gradle-plugin" }
 zipline-loader = { module = "app.cash.zipline:zipline-loader", version.ref = "zipline-loader" }
 zipline-profiler = { module = "app.cash.zipline:zipline-profiler", version.ref = "zipline-profiler" }
+android-gradle-plugin = { module = "com.android.tools.build:gradle", version = "8.0.2" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+okio-core = { module = "com.squareup.okio:okio", version.ref = "okio" }
+okHttp-core = { module = "com.squareup.okhttp3:okhttp", version.ref = "okHttp" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

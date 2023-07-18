@@ -41,7 +41,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.4.8"
     }
     packaging {
         resources {
@@ -54,6 +54,7 @@ dependencies {
     implementation(libs.zipline)
     implementation(libs.zipline.loader)
     implementation(libs.zipline.profiler)
+    implementation(project(":lib"))
 
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
