@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.nytimes.firstzipline.lib.TheInterface
 import com.nytimes.firstziplineconsumer.ui.theme.FirstZiplineConsumerTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,6 +28,10 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+fun test(math: TheInterface) {
+
 }
 
 @Composable
